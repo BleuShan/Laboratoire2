@@ -29,15 +29,22 @@ package com.bleushan.laboratoire2;
 
 import android.app.Application;
 
+import com.facebook.CallbackManager;
 import com.facebook.FacebookSdk;
 
+/**
+ * An {@link Application} subclass. Serves as an entry point for the application. We initialize
+ * the Facebook SDK and we provide the global {@link CallbackManager} for the application here.
+ */
 public class Laboratoire2Application extends Application {
 
   private final static String TAG = Laboratoire2Application.class.getSimpleName();
+  public final CallbackManager callbackManager = CallbackManager.Factory.create();
 
   @Override
   public void onCreate() {
     super.onCreate();
     FacebookSdk.sdkInitialize(this);
+
   }
 }

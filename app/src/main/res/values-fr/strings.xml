@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <!--
   ~ strings.xml
   ~ Laboratoire2
@@ -26,5 +27,11 @@
   ~ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   -->
 <resources>
-	<string name="app.name">Laboratoire 2</string>
+	<string name="com_bleushan_laboratoire2_app_name">Laboratoire 2</string>
+	<string name="com_bleushan_laboratoire2_app_noimage">Aucune image sélectionnée</string>
+	<string name="com_bleushan_laboratoire2_menu_open_image">Ouvrir une image</string>
+	<string name="com_bleushan_laboratoire2_app_image_description">L\'image selectionnée</string>
+	<string name="com_bleushan_laboratoire2_error_cannot_share">
+		"Nous ne pouvons rejoindre Facebook. Avez-vous installé l\'application Facebook?"
+  </string>
 </resources>
